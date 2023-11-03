@@ -975,46 +975,41 @@ class Game {
     }
 
     public void MOVE() {
-        /*
-         * System.out.println("Manual or automatic-");
-         * String manual_or_auto = scanner.nextLine();
-         * 
-         * if (manual_or_auto.equals("Manual"))
-         * {
-         * 
-         * int[] xy = new int[2];
-         * System.out.println("X and Y displacements-");
-         * for (int i = 0; i < 2; i++) {
-         * 
-         * xy[i] = scanner.nextInt();
-         * }
-         * }
-         * 
-         * else{
-         * 
-         * int[] auto = new int[4];
-         * System.out.println("Destination sector or quadrant&sector-");
-         * for (int i = 0; i < 4; i++) {
-         * 
-         * auto[i] = scanner.nextInt();
-         * }
-         * }
-         */
+        System.out.println("Manual or automatic-");
+        String manual_or_auto = scanner.nextLine();
+          
+        if (manual_or_auto.equals("Manual"))
+        {
+            int xpos = scanner.nextInt();
+            int ypos = scanner.nextInt();
 
-        int xpos = scanner.nextInt();
-        int ypos = scanner.nextInt();
+            if ((quadrant.row + xpos) < 1 || (quadrant.row + xpos) > 8 || (quadrant.column + ypos) < 1
+                    || (quadrant.column + ypos) > 8) {
+                System.out.println("Cannot go past Barriers. If you do this three times, your ship will be destroyed.");
+                }
 
-        if ((quadrant.row + xpos) < 1 || (quadrant.row + xpos) > 8 || (quadrant.column + ypos) < 1
-                || (quadrant.column + ypos) > 8) {
-            System.out.println("Cannot go past Barriers. If you do this three times, your ship will be destroyed.");
+            else {
+                quadrant.row += xpos;
+                quadrant.column += ypos;
+                System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
+                }
         }
-
-        else {
-            quadrant.row += xpos;
-            quadrant.column += ypos;
-            System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
-        }
-
+          
+        else if(manual_or_auto.equals("Automatic")){
+            System.out.println("Destination Quadrant");
+            int xpos = scanner.nextInt();
+            int ypos = scanner.nextInt();
+            if(xpos > 8 || xpos < 1 || ypos < 1 || ypos > 8)
+            {
+                System.out.println("Invalid argument");
+            }
+          
+            else
+            {
+                quadrant.row = xpos;
+                quadrant.column = ypos;
+                System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
+            }
     }
 
     public void PHASERS() {
