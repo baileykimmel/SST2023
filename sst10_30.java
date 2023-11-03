@@ -142,7 +142,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -156,7 +156,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -170,7 +170,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 3 " ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -184,7 +184,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -198,7 +198,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -212,7 +212,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -226,7 +226,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -240,7 +240,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 1, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -259,7 +259,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -273,7 +273,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -287,7 +287,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -301,7 +301,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -315,7 +315,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -329,7 +329,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -343,7 +343,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -357,7 +357,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 2, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -377,7 +377,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -391,7 +391,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -405,7 +405,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -419,7 +419,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -433,7 +433,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -447,7 +447,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -461,7 +461,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -475,7 +475,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 3, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -495,7 +495,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -509,7 +509,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -523,7 +523,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -537,7 +537,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -551,7 +551,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -565,7 +565,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -579,7 +579,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -593,7 +593,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 4, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -612,7 +612,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -626,7 +626,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -640,7 +640,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -654,7 +654,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -668,7 +668,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -682,7 +682,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -696,7 +696,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -710,7 +710,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 5, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -725,7 +725,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -739,7 +739,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -753,7 +753,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -767,7 +767,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -781,7 +781,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -795,7 +795,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -809,7 +809,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -823,7 +823,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 6, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -840,7 +840,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -854,7 +854,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -868,7 +868,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -882,7 +882,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -896,7 +896,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -910,7 +910,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -924,7 +924,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -938,7 +938,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 7, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -954,7 +954,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 1" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -968,7 +968,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 2" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -982,7 +982,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 3" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -996,7 +996,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 4" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -1010,7 +1010,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 5" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -1024,7 +1024,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 6" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -1038,7 +1038,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 7" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
@@ -1052,7 +1052,7 @@ class Game
                 System.out.println("    1 2 3 4 5 6 7 8 9 10");
                 System.out.println("  1 * * * * * * * * * *   Stardate: " );//+ Stardate   
                 System.out.println("  2 * * * * * * * * * *   Condition: " ); // + condition
-                System.out.println("  3 * * * * * * * * * *   Position: " ); // plus position (x,y   a,b)
+                System.out.println("  3 * * * * * * * * * *   Position: 8, 8" ); // plus position (x,y   a,b)
                 System.out.println("  4 * * * * * * * * * *   Life Support " ); //+ Life support
                 System.out.println("  5 * * * * * * * * * *   Warp Factor: " ); //+ Warp factor
                 System.out.println("  6 * * * * * * * * * *   Energy: " ); // + Energy
