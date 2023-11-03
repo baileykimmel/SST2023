@@ -1091,6 +1091,7 @@ class Game {
                 System.out.println("  9 * * * * * * * * * *   Klingons Left: " ); //+ Klingons Left
                 System.out.println(" 10 * * * * * * * * * *   Time Left: " ); // + Time left
             }
+        }
 
     public void MOVE() {
         /*
