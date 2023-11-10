@@ -1137,27 +1137,38 @@ class Game {
     public void REQUEST() {
 
         System.out.println("Information desired? ");
-        request = scanner.nextLine();
+        request = scanner.next();
         if (request == "date") {
             // int stardate = getSecondsRemaining();
             // System.out.println(stardate);
 
-        } else if (request == "condition") {
+        }
+         else if (request == "condition") {
             System.out.println("Condition:    GREEN");
-        } else if (request == "position") {
+        }
+         else if (request == "position") {
             System.out.println(" Position is (" + quadrant.row + "," + quadrant.column + ")");
-        } else if (request == "lsupport") {
+        }
+         else if (request == "lsupport") {
             System.out.println("Life support    ACTIVE");
-        } else if (request == "warpfactor") {
+        }
+         else if (request == "warpfactor") {
             System.out.println("Warp Factor = ");
-        } else if (request == "energy") {
-        } else if (request == "torpedoes") {
-        } else if (request == "shields") {
+        }
+         else if (request == "energy") {
+        }
+         else if (request == "torpedoes") {
+        }
+         else if (request == "shields") {
 
-        } else if (request == "klingons") {
-        } else if (request == "time") {
+        }
+         else if (request == "klingons") {
+            System.out.println("Klingon Position is (" + klingon.row + "," + klingon.column + ")");
+        }
+         else if (request == "time") {
 
-        } else {
+        }
+         else {
             System.out.println(
                     "UNRECOGNIZED REQUEST. Legal requests are: date, condition, position, lsupport, warpfactor, energy, torpedoes, shields, klingons, time.");
         }
