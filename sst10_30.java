@@ -1010,6 +1010,7 @@ class Game {
                 quadrant.column = ypos;
                 System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
             }
+        }
     }
 
     public void PHASERS() {
