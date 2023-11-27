@@ -977,35 +977,32 @@ class Game {
     public void MOVE() {
         System.out.println("Manual or automatic-");
         String manual_or_auto = scanner.nextLine();
-          
-        if (manual_or_auto.equals("Manual"))
-        {
+
+        if (manual_or_auto.equals("Manual")) {
             int xpos = scanner.nextInt();
             int ypos = scanner.nextInt();
 
             if ((quadrant.row + xpos) < 1 || (quadrant.row + xpos) > 8 || (quadrant.column + ypos) < 1
                     || (quadrant.column + ypos) > 8) {
                 System.out.println("Cannot go past Barriers. If you do this three times, your ship will be destroyed.");
-                }
+            }
 
             else {
                 quadrant.row += xpos;
                 quadrant.column += ypos;
                 System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
-                }
+            }
         }
-          
-        else if(manual_or_auto.equals("Automatic")){
+
+        else if (manual_or_auto.equals("Automatic")) {
             System.out.println("Destination Quadrant");
             int xpos = scanner.nextInt();
             int ypos = scanner.nextInt();
-            if(xpos > 8 || xpos < 1 || ypos < 1 || ypos > 8)
-            {
+            if (xpos > 8 || xpos < 1 || ypos < 1 || ypos > 8) {
                 System.out.println("Invalid argument");
             }
-          
-            else
-            {
+
+            else {
                 quadrant.row = xpos;
                 quadrant.column = ypos;
                 System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
@@ -1111,6 +1108,20 @@ class Game {
     }
 
     public void REPORT() {
+
+        // you are now playing a short novice game
+        // push
+
+        System.out.println("You are now playing a" + length + rank);
+        // 0 of 3 Klingon ships have been destroyed. ldldldl
+        if (klingon.health == 0) {
+            System.out.println("1 out of 1 Klingon ships has been destroyed");
+        } else {
+            System.out.println("0 out of 1 Klingon ships have been destroyed");
+        }
+        // There are 4 bases.
+        System.out.println("You have" + quadrant.starbases + "starbases");
+        // You have 4 deep space probes.
     }
 
     public void SENSORS() {
@@ -1142,33 +1153,23 @@ class Game {
             // int stardate = getSecondsRemaining();
             // System.out.println(stardate);
 
-        }
-         else if (request == "condition") {
+        } else if (request == "condition") {
             System.out.println("Condition:    GREEN");
-        }
-         else if (request == "position") {
+        } else if (request == "position") {
             System.out.println(" Position is (" + quadrant.row + "," + quadrant.column + ")");
-        }
-         else if (request == "lsupport") {
+        } else if (request == "lsupport") {
             System.out.println("Life support    ACTIVE");
-        }
-         else if (request == "warpfactor") {
+        } else if (request == "warpfactor") {
             System.out.println("Warp Factor = ");
-        }
-         else if (request == "energy") {
-        }
-         else if (request == "torpedoes") {
-        }
-         else if (request == "shields") {
+        } else if (request == "energy") {
+        } else if (request == "torpedoes") {
+        } else if (request == "shields") {
 
-        }
-         else if (request == "klingons") {
+        } else if (request == "klingons") {
             System.out.println("Klingon Position is (" + klingon.row + "," + klingon.column + ")");
-        }
-         else if (request == "time") {
+        } else if (request == "time") {
 
-        }
-         else {
+        } else {
             System.out.println(
                     "UNRECOGNIZED REQUEST. Legal requests are: date, condition, position, lsupport, warpfactor, energy, torpedoes, shields, klingons, time.");
         }
