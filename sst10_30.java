@@ -127,858 +127,879 @@ class Game {
     // All command methods
     public void SRSCAN() {
 
-        // if(damaged)
-        // {
-        // System.out.println("Short Range Sensors Damaged!")
-        // }
-        // else
-        // {
+        if(quadrant.damaged)
+        {
+         System.out.println("Short Range Sensors Damaged!");
+        }
+         else
+         {
         if (quadrant.row == 1 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 3 "); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 1 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 1, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 2 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 2 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 2, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 3 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 3 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 3, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 4 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 4 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 4, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 5 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition ); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition ); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 5 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 5, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 6 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 6 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 6, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 7 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 7 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 7, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
 
         if (quadrant.row == 8 && quadrant.column == 1) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 1"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 2) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 2"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 3) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 3"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 4) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 4"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 5) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 5"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 6) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 6"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 7) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 7"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
         if (quadrant.row == 8 && quadrant.column == 8) {
             System.out.println("    1 2 3 4 5 6 7 8 9 10");
             System.out.println("  1 * * * * * * * * * *   Stardate: ");// + Stardate
-            System.out.println("  2 * * * * * * * * * *   Condition: "); // + condition
+            System.out.println("  2 * * * * * * * * * *   Condition: "  + quadrant.condition); // + condition
             System.out.println("  3 * * * * * * * * * *   Position: 8, 8"); // plus position (x,y a,b)
             System.out.println("  4 * * * * * * * * * *   Life Support "); // + Life support
             System.out.println("  5 * * * * * * * * * *   Warp Factor: "); // + Warp factor
             System.out.println("  6 * * * * * * * * * *   Energy: "); // + Energy
-            System.out.println("  7 * * * * * * * * * *   Torpedoes: "); // + Torpedoes
+            System.out.println("  7 * * * * * * * * * *   Torpedoes: " + quadrant.torp); // + Torpedoes
             System.out.println("  8 * * * * * * * * * *   Shields: "); // + Shields
-            System.out.println("  9 * * * * * * * * * *   Klingons Left: "); // + Klingons Left
+            System.out.println("  9 * * * * * * * * * *   Klingons Left: " + quadrant.klingons); // + Klingons Left
             System.out.println(" 10 * * * * * * * * * *   Time Left: "); // + Time left
         }
+                if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
+            }
     }
 
     public void MOVE() {
         System.out.println("Manual or automatic-");
         String manual_or_auto = scanner.nextLine();
 
-        if (manual_or_auto.equals("Manual")) {
+        if (manual_or_auto.equals("Manual")) 
+        {
             int xpos = scanner.nextInt();
             int ypos = scanner.nextInt();
 
@@ -994,7 +1015,8 @@ class Game {
             }
         }
 
-        else if (manual_or_auto.equals("Automatic")) {
+        else if (manual_or_auto.equals("AUTOMATIC") || manual_or_auto.equals("automatic") || manual_or_auto.equals("Automatic"))
+        {
             System.out.println("Destination Quadrant");
             int xpos = scanner.nextInt();
             int ypos = scanner.nextInt();
@@ -1008,6 +1030,25 @@ class Game {
                 System.out.println("New Position is (" + quadrant.row + "," + quadrant.column + ")");
             }
         }
+        if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
     }
 
     public void PHASERS() {
@@ -1033,6 +1074,25 @@ class Game {
             System.out.println("Klingon ship destroyed.");
             quadrant.klingons--;
         }
+                if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
     }
 
     public void CALL() {
@@ -1045,6 +1105,128 @@ class Game {
     }
 
     public void PHOTONS() {
+        //TORPEDOES
+        //start with 10
+        if(quadrant.torp > 0)
+        {
+            System.out.println("How many would you like to shoot?");
+            int intrequest = scanner.nextInt(); //get input
+            if(intrequest < quadrant.torp)
+            {
+                System.out.println("What direction would you like to shoot? (North, East, South, West)");
+                String request = scanner.next(); //get input
+                if(request.equals("NORTH") || request.equals("north") || request.equals("North"))
+                {
+                    if(klingon.column == quadrant.column && klingon.row >= quadrant.row)
+                    {
+                        klingon.health -= 20;
+                        System.out.println("Photon Torpedos hit enemy Klingon ship!");
+                        if (klingon.health <= 0) 
+                        {
+                            System.out.println("Klingon ship destroyed.");
+                            quadrant.klingons--;
+                        }
+                    } 
+                    else
+                    {
+                        System.out.println("Photon Torpedos shot into empty space");
+                    }
+                    quadrant.torp -= intrequest;
+                }
+
+                else if(request.equals("SOUTH")||request.equals("south")||request.equals("South"))
+                {
+                    if(klingon.column == quadrant.column && klingon.row <= quadrant.row)
+                    {
+                        klingon.health -= 20;
+                        System.out.println("Photon Torpedos hit enemy Klingon ship!");//hit
+                        if (klingon.health <= 0) 
+                        {
+                            System.out.println("Klingon ship destroyed.");
+                            quadrant.klingons--;
+                        }
+                    } 
+                    else
+                    {
+                        System.out.println("Photon Torpedos shot into empty space");
+                    }
+                    quadrant.torp -= intrequest;
+                }
+
+                else if(request.equals("EAST")||request.equals("East")||request.equals("east"))
+                {
+                    if(klingon.column >= quadrant.column && klingon.row == quadrant.row)
+                    {
+                        klingon.health -= 20;
+                        System.out.println("Photon Torpedos hit enemy Klingon ship!");//hit
+                        if (klingon.health <= 0) 
+                        {
+                            System.out.println("Klingon ship destroyed.");
+                            quadrant.klingons--;
+                        }
+                    } 
+                    else
+                    {
+                        System.out.println("Photon Torpedos shot into empty space");
+                    }
+                    quadrant.torp -= intrequest;
+                }
+
+                else if(request.equals("WEST")||request.equals("West")||request.equals("west"))
+                {
+                    if(klingon.column <= quadrant.column && klingon.row == quadrant.row)
+                    {
+                        klingon.health -= 20;
+                        System.out.println("Photon Torpedos hit enemy Klingon ship!");//hit
+                        if (klingon.health <= 0) 
+                        {
+                            System.out.println("Klingon ship destroyed.");
+                            quadrant.klingons--;
+                        }
+                    } 
+                    else
+                    {
+                        System.out.println("Photon Torpedos shot into empty space");
+                    }
+                    quadrant.torp -= intrequest;
+                }
+
+                else
+                {
+                    System.out.println("Invalid Input");
+                }
+            }
+
+            else
+            {
+                System.out.println(" Not enough Photon Torpedoes.");
+            }
+            
+
+        }
+        else
+        {
+            System.out.println("No Photon Torpedoes available");
+        }
+                if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
     }
 
     public void ABANDON() {
@@ -1105,6 +1287,15 @@ class Game {
     }
 
     public void DAMAGES() {
+        if(quadrant.damaged)
+        {
+                    System.out.println("Your ship is at " + (quadrant.StarshipHealth *10) +"% health");
+        }
+        else
+        {
+            System.out.println("Your ship is undamaged. Good job captain");
+        }
+
     }
 
     public void REPORT() {
@@ -1120,7 +1311,7 @@ class Game {
             System.out.println("0 out of 1 Klingon ships have been destroyed");
         }
         // There are 4 bases.
-        System.out.println("You have" + quadrant.starbases + "starbases");
+        System.out.println("You have " + quadrant.starbases + " starbases");
         // You have 4 deep space probes.
     }
 
@@ -1149,25 +1340,26 @@ class Game {
 
         System.out.println("Information desired? ");
         request = scanner.next();
-        if (request == "date") {
+        if (request.equals("date")) {
             // int stardate = getSecondsRemaining();
             // System.out.println(stardate);
 
-        } else if (request == "condition") {
+        } else if (request.equals("Condition")) {
             System.out.println("Condition:    GREEN");
-        } else if (request == "position") {
+        } else if (request.equals("Position")) {
             System.out.println(" Position is (" + quadrant.row + "," + quadrant.column + ")");
-        } else if (request == "lsupport") {
+        } else if (request.equals("Life Support")) {
             System.out.println("Life support    ACTIVE");
-        } else if (request == "warpfactor") {
+        } else if (request.equals("Warp Factor")) {
             System.out.println("Warp Factor = ");
-        } else if (request == "energy") {
-        } else if (request == "torpedoes") {
-        } else if (request == "shields") {
+        } else if (request.equals("Energy")) {
+        } else if (request.equals("Torpedoes")) {
+            System.out.println("You have " + quadrant.torp + " torpedoes left.");
+        } else if (request.equals("Shields")) {
 
-        } else if (request == "klingons") {
+        } else if (request.equals("Klingons")) {
             System.out.println("Klingon Position is (" + klingon.row + "," + klingon.column + ")");
-        } else if (request == "time") {
+        } else if (request.equals("Time")) {
 
         } else {
             System.out.println(
@@ -1197,7 +1389,29 @@ class Game {
 
         else
             System.out.println("But Sir, there are no enemies in this quadrant.");
-    }
+                
+            
+            
+            if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
+        }
 
     public void FREEZE() {
         System.out.printf("File name(9 characters maximum): ");
@@ -1214,15 +1428,15 @@ class Game {
     }
 
     public void COMMANDS() {
-        System.out.println("    SRSCAN     MOVE     PHASERS    CALL");
-        System.out.println("    STATUS     IMPULSE  PHOTONS    ABANDON");
-        System.out.println("    LRSCAN     WARP     SHIELDS    DESTRUCT");
-        System.out.println("    CHART      REST     DOCK       QUIT");
-        System.out.println("    DAMAGES    REPORT   SENSORS    ORBIT");
-        System.out.println("    TRANSPORT  MINE     CRYSTALS   SHUTTLE");
-        System.out.println("    PLANETS    REQUEST  DEATHRAY   FREEZE");
-        System.out.println("    COMPUTER   EMEXIT   PROBE      COMMANDS");
-        System.out.println("    SCORE      CLOAK    CAPTURE    HELP");
+        System.out.println("    SRSCAN     MOVE       PHASERS    CALL");
+        System.out.println("    STATUS     IMPULSE    PHOTONS    ABANDON");
+        System.out.println("    LRSCAN     WARP       SHIELDS    DESTRUCT");
+        System.out.println("    CHART      REST       DOCK       QUIT");
+        System.out.println("    DAMAGES    REPORT     SENSORS    ORBIT");
+        System.out.println("    TRANSPORT  MINE       CRYSTALS   SHUTTLE");
+        System.out.println("    PLANETS    REQUEST    DEATHRAY   FREEZE");
+        System.out.println("    COMPUTER   EMEXIT     PROBE      COMMANDS");
+        System.out.println("    SCORE      CLOAK      CAPTURE    HELP");
         System.out.println();
     }
 
@@ -1246,11 +1460,15 @@ class Quadrant {
     int klingons = 1;
     int starbases;
     int stars;
+    int torp = 10;
+    int StarshipHealth = 10;
+    boolean damaged=false;
+    String condition = "Green";
 }
 
 class Klingon {
-    int row;
-    int column;
+    int row = 7;
+    int column = 5;
     int health = 20;
 }
 
