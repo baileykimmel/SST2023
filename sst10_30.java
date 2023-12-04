@@ -1240,6 +1240,26 @@ class Game {
         System.out.println(String.format("%5d%5d%5d", randoms[3][0], randoms[4][0], randoms[5][0]));
         System.out.println(String.format("%5d%5d%5d", randoms[6][0], randoms[7][0], randoms[0][1]));
         System.out.println();
+
+        if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
     }
 
     public void WARP() {
@@ -1267,6 +1287,26 @@ class Game {
 
         // System.out.println("\nEnterprise is currently in Quadrant " + ___ + " - " +
         // ___ +);
+
+        if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
     }
 
     public void REST() {
@@ -1313,6 +1353,27 @@ class Game {
         // There are 4 bases.
         System.out.println("You have " + quadrant.starbases + " starbases");
         // You have 4 deep space probes.
+
+
+        if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
     }
 
     public void SENSORS() {
@@ -1365,6 +1426,27 @@ class Game {
             System.out.println(
                     "UNRECOGNIZED REQUEST. Legal requests are: date, condition, position, lsupport, warpfactor, energy, torpedoes, shields, klingons, time.");
         }
+
+
+        if(klingon.row < (quadrant.row + 1) && klingon.row > (quadrant.row - 1)
+                && klingon.column < (quadrant.row + 1) && klingon.column > (quadrant.row - 1))
+                {
+                    System.out.println("Klingons have spotted you! You are under enemy fire");
+                    System.out.println("You have taken damage");
+                    quadrant.StarshipHealth--;
+                    quadrant.damaged = true;
+                    if (quadrant.StarshipHealth < 7 && quadrant.StarshipHealth> 5) {
+                        quadrant.condition = "Yellow";   
+                    }
+                    else if(quadrant.StarshipHealth <= 5){
+                        quadrant.condition = "Red";
+
+                    }
+                    if(quadrant.StarshipHealth <=0)
+                    {
+                        System.out.println("Your ship has been destroyed!");
+                    }
+                }
 
     }
 
