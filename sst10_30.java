@@ -989,6 +989,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
             }
@@ -1047,6 +1055,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
     }
@@ -1091,6 +1107,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
     }
@@ -1225,6 +1249,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
     }
@@ -1258,6 +1290,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
     }
@@ -1305,6 +1345,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
     }
@@ -1372,6 +1420,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
     }
@@ -1445,6 +1501,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+                        System.out.println("*************************************************");
+                        System.out.println("Do you want your score recorded? ");
+                        score_yes_or_no = scanner.nextLine();
+                        System.out.println("File name(9 characters maximum):");
+                        filename = scanner.nextLine();
+                        System.out.println("Can't freeze game as file " + filename + ".trk");
+                        System.out.println("Would you like to play again?");
+                        playagain = scanner.nextLine();;
                     }
                 }
 
@@ -1491,6 +1555,14 @@ class Game {
                     if(quadrant.StarshipHealth <=0)
                     {
                         System.out.println("Your ship has been destroyed!");
+ System.out.println("*************************************************");
+        System.out.println("Do you want your score recorded? ");
+        score_yes_or_no = scanner.nextLine();
+        System.out.println("File name(9 characters maximum):");
+        filename = scanner.nextLine();
+        System.out.println("Can't freeze game as file " + filename + ".trk");
+        System.out.println("Would you like to play again?");
+        playagain = scanner.nextLine();;
                     }
                 }
         }
