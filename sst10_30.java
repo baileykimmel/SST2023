@@ -1134,7 +1134,7 @@ class Game {
         System.out.println("Life Support ACTIVE "); // + Life Support ACTIVE
         System.out.println("Warp factor: " + quadrant.warpFactor); // + Warp factor
         System.out.println("Energy: 4908.29"); // + Energy
-        System.out.println("Torpedoes: 10" + quadrant.torp); // + Torpedoes
+        System.out.println("Torpedoes:" + quadrant.torp); // + Torpedoes
         System.out.println("Shields: " + quadrant.shields + quadrant.shields + ", 100% " + quadrant.shieldUnits + " units"); // + Shields
         System.out.println("Klingons Left: " + quadrant.klingons); // + Klingons Left
         System.out.println("Time left: " + quadrant.stardates); // + Time left
