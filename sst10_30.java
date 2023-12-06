@@ -2524,7 +2524,7 @@ class Game {
             // System.out.println(stardate);
 
         } else if (request.equals("Condition")) {
-            System.out.println("Condition:    GREEN");
+            System.out.println("Condition:    "+ quadrant.condition);
         } else if (request.equals("Position")) {
             System.out.println(" Position is (" + quadrant.row + "," + quadrant.column + ")");
         } else if (request.equals("Life Support ACTIVE")) {
